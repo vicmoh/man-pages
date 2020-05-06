@@ -2,6 +2,14 @@
 
 Manual page for GitHub
 
+# Logging
+
+Show git insight network of the branches:
+- `git log --graph --oneline --all`
+
+Show code recent changes on log:
+- `git log -p`
+
 # Push and reset
 
 Make sure everything is pushed up to your remote repository (GitHub):
