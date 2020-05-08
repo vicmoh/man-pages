@@ -44,6 +44,10 @@ Show what will be removing from .gitignore:
 To remove all that is shown:
 - `git clean -xdn`
 
+Remove the cached gits.
+If you can't remove the files in `.gitignore`:
+- `git rm -r --cached .`
+
 # Branches
 
 List all branches exist on remote repo.
