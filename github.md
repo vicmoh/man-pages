@@ -39,6 +39,11 @@ If is `.DS_Store` is in the git repo, command below removes them.
 - `find . -name .DS_Store -print0 | xargs -0 git rm -f --ignore-unmatch`
 - git commit and push once done.
 
+Show what will be removing from .gitignore:
+- `git clean -xdn` 
+To remove all that is shown:
+- `git clean -xdn`
+
 # Branches
 
 List all branches exist on remote repo.
