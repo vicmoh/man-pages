@@ -66,6 +66,20 @@ Revert the changes:
 - Revert to head
 git reset --hard remotes/origin/HEAD
 
+# Git submodules
+
+Create a file name `.gitmodules` in work dir.
+The file will be format:
+```
+[submodule "libfoo"]
+	path = include/foo
+	url = git://foo.com/git/lib.git
+
+[submodule "libbar"]
+	path = include/bar
+	url = git://bar.com/git/lib.git
+```
+
 # Warnings and errors.
 
 If you get error: cannot lock
