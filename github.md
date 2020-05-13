@@ -66,7 +66,7 @@ Revert the changes:
 - Revert to head
 git reset --hard remotes/origin/HEAD
 
-# Git submodules
+# Git sub-modules
 
 Create a file name `.gitmodules` in work dir.
 The file will be format:
