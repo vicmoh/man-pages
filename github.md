@@ -10,6 +10,9 @@ Show git insight network of the branches:
 Show code recent changes on log:
 - `git log -p`
 
+Show git log based on the author
+- `git log -p --author=someUser`
+
 # Push and reset
 
 Make sure everything is pushed up to your remote repository (GitHub):
