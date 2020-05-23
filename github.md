@@ -71,6 +71,18 @@ git reset --hard remotes/origin/HEAD
 
 # Git sub-modules
 
+Pulling all sub-modules:
+- `git pull --recurse-submodules`
+
+Cloning repo with it's git module:
+- `git clone --recursive [URL to Git repo]`
+
+To load sub-module:
+- `git submodule update --init --recursive`
+
+Executing a command on every sub-module:
+- Ex. `git submodule foreach --recursive 'git reset --hard'`
+
 Create a file name `.gitmodules` in work dir.
 The file will be format:
 ```
