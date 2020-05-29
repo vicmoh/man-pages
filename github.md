@@ -13,6 +13,11 @@ Show code recent changes on log:
 Show git log based on the author
 - `git log -p --author=someUser`
 
+# Merging
+
+To abort the merge
+- `git merge --abort`
+
 # Push and reset
 
 Make sure everything is pushed up to your remote repository (GitHub):
@@ -70,6 +75,12 @@ Revert the changes:
 git reset --hard remotes/origin/HEAD
 
 # Git sub-modules
+
+Add git sub-module in `.gitmodules` index:
+- `git submodule add <url> <package-path>`
+
+Remove git sub-module in `.gitmodules` index:
+- `git rm --cached <package-path>`
 
 Pulling all sub-modules:
 - `git pull --recurse-submodules`
