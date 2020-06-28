@@ -58,7 +58,10 @@ If you can't remove the files in `.gitignore`:
 
 # Branches
 
-List all branches exist on remote repo.
+Refresh branch list:
+- `git remote update origin --prune`
+
+List all branches exist on remote repo:
 - `git branch -r`
 
 Delete remote branch:
