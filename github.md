@@ -58,6 +58,9 @@ If you can't remove the files in `.gitignore`:
 
 # Branches
 
+To show local branches:
+- `git branch -a`
+
 Refresh branch list:
 - `git remote update origin --prune`
 
