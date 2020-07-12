@@ -82,6 +82,9 @@ git reset --hard remotes/origin/HEAD
 
 # Git sub-modules
 
+Update submodule:
+- `git submodule update --init --recursive`
+
 Add git sub-module in `.gitmodules` index:
 - `git submodule add <url> <package-path>`
 
