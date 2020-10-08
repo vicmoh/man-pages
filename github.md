@@ -2,6 +2,10 @@
 
 Manual page for GitHub
 
+# Undo commit
+
+- Do `git reset HEAD^` for as many commits you want to undo, it will keep your changes and your actual state of your files, just flushing the commits of them.
+
 # Logging
 
 Show git insight network of the branches:
