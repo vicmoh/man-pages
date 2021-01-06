@@ -22,6 +22,9 @@ Show git log based on the author
 To abort the merge
 - `git merge --abort`
 
+Viewing list of merge conflict files
+- `git diff --check`
+
 # Push and reset
 
 Make sure everything is pushed up to your remote repository (GitHub):
