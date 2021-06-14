@@ -27,6 +27,9 @@ Viewing list of merge conflict files
 
 # Push and reset
 
+Cancel commit
+- `git reset HEAD~1`
+
 Make sure everything is pushed up to your remote repository (GitHub):
 - `git checkout master`
 
