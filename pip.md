@@ -5,22 +5,24 @@ This file contain manual page for
 
 # Virtual environment
 
-Allow run permission
+Create virtual environment.
 
 ```
-chmod 755 ./file
+virtualenv env
+```
+
+Allow run permission and run environment.
+
+```
+cd ./env/bin
+chmod 755 ./activate
+source ./activate
 ```
 
 Upgrade
 
 ```
 sudo pip install --upgrade requests
-```
-
-Create virtual environment
-
-```
-virtualenv env
 ```
 
 Install requirement files using `venv`.
