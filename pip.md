@@ -31,6 +31,20 @@ Install requirement files using `venv`.
 venv env/bin/pip install -r requirements.txt
 ```
 
+# Requirements
+
+Creating requirements
+
+```
+pip freeze > requirements.txt
+```
+
+Install from requirements
+
+```
+pip install -r /path/to/requirements.txt
+```
+
 # Managing packages
 
 Uninstall all packages
