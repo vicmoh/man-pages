@@ -167,13 +167,7 @@ git rm -f <submodule_path>
 Git pull submodule:
 
 ```
-git submodule update --recursive --remote
-```
-
-Update submodule:
-
-```
-git submodule update --init --recursive
+git submodule update --init --recursive --remote
 ```
 
 Add git sub-module in `.gitmodules` index:
