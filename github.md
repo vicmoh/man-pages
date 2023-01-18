@@ -26,6 +26,14 @@ Show git log based on the author
 git log -p --author=someUser
 ```
 
+Save the logging credentials,
+so that it does not ask you 
+to login again:
+
+```
+git config --global credential.helper store
+```
+
 # Merging
 
 To abort the merge
